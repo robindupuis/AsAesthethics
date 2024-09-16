@@ -1,0 +1,166 @@
+body{
+  background: linear-gradient(rgb(105, 16, 105), rgb(239, 5, 239));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+button{
+  border:3px solid;
+  border-color:rgb(105, 16, 105);
+  border-radius: 5px;
+  background-color: rgb( 239, 5, 239);
+}
+
+button:hover{
+  transform: translateY(-5px);
+  background-color:rgb(191, 2, 191);
+  
+}
+
+iframe{
+  width:600px;
+  height:450px;
+}
+h1{
+  color:white;
+}
+h3{
+ color: rgb( 239, 5, 239);
+}
+label, select, input[type="reset"], input[type="submit"] {
+  margin-bottom: 20px;
+}
+
+/* Make form elements take up the same width */
+label, select {
+  width: 50%;
+}
+
+/* Add some padding to the labels */
+label {
+  padding: 10px;
+}
+
+/* Make the selects have a consistent height */
+select {
+  height: 25px;
+}
+
+a{
+  color:rgb(239, 5, 239);
+}
+a:hover{
+  color:rgb(191, 2, 191);
+}
+
+.impButtons:hover{
+  transform: translateY(-5px);
+ 
+}
+footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+/*select{
+
+ background-color: rgb(191, 2, 191);
+
+}
+
+select:hover{
+
+  background-color: rgb(150, 23, 150);
+}*/
+
+@media only screen and (max-width: 768px) {
+  /* Adjust font sizes and padding for mobile devices */
+  body {
+    font-size: 14px;
+    background: linear-gradient(rgb(105, 16, 105), rgb(239, 5, 239));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  h1{
+    color:white;
+    font-size: 18px;
+  }
+
+  iframe {
+    width: 320px;
+    height: 240px;
+  }
+
+
+  h3{
+    font-size:16px;
+    color: rgb( 239, 5, 239);
+  }
+
+  label, select, input[type="reset"], input[type="submit"] {
+    margin-bottom: 10px;
+  }
+  .iframely-embed {
+    max-width: 320px; 
+    margin : 0 auto;
+  }
+  label {
+    padding: 5px;
+  }
+
+  select {
+    height: 20px;
+  }
+
+  /* Make the footer take up the full width on mobile devices */
+  footer {
+    position: sticky;
+  bottom: 0;
+    width: 100vw;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Adjust font sizes and padding for tablet devices */
+  body {
+    font-size: 16px;
+    background: linear-gradient(rgb(105, 16, 105), rgb(239, 5, 239));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  iframe {
+    width: 450px;
+    height: 350px;
+  }
+ 
+  h1 {
+    font-size: 20px;
+    color: white;
+  }
+  h3{
+    font-size:18px;
+    color: rgb( 239, 5, 239);
+  }
+
+  label, select, input[type="reset"], input[type="submit"] {
+    margin-bottom: 15px;
+  }
+
+  label {
+    padding: 8px;
+  }
+
+  select {
+    height: 22px;
+  }
+  .iframely-embed {
+    max-width: 500px; /* medium tablets */
+    margin : 0 auto;
+  }
+
+  /* Make the footer take up the full width on tablet devices */
+  footer {
+    position: sticky;
+    bottom: 0;
+    width: 100vw;
+  }
+}
