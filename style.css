@@ -53,6 +53,7 @@ a:hover{
 }
 article{
 width:500px;
+margin-left:auto; margin-right:auto;
 }
 .impButtons:hover{
   transform: translateY(-5px);
@@ -93,6 +94,7 @@ select:hover{
   }
   article{
     width:50%;
+    margin-left:auto; margin-right:auto;
   }
 
   h3{
@@ -130,9 +132,6 @@ select:hover{
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-    article{
-    width:50%;
-  }
 
   iframe {
     width: 450px;
@@ -169,5 +168,9 @@ select:hover{
     position: sticky;
     bottom: 0;
     width: 100vw;
+  }
+  article{
+    width:50%;
+    margin-left:auto; margin-right:auto;
   }
 }
