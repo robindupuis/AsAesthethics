@@ -51,7 +51,9 @@ a{
 a:hover{
   color:rgb(191, 2, 191);
 }
-
+article{
+width:500px;
+}
 .impButtons:hover{
   transform: translateY(-5px);
  
@@ -89,7 +91,9 @@ select:hover{
     width: 320px;
     height: 240px;
   }
-
+  article{
+    width:50%;
+  }
 
   h3{
     font-size:16px;
