@@ -89,6 +89,10 @@ h1{
     h1 {
         font-size: 24px; /* Adjust font size for smaller screens */
     }
+      iframe{
+        width: 300px;
+        height:300px;
+    }
 
     .btn {
         width: 100%; /* Make buttons full width */
