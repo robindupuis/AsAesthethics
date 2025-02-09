@@ -85,3 +85,27 @@ h1{
     position: fixed;
     bottom:0;
    }
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .btn {
+        width: 100%; /* Make buttons full width */
+        padding: 10px; /* Increase padding for touch targets */
+    }
+
+    #paragraph_div {
+        width: 90%; /* Make paragraph div wider on mobile */
+        padding: 10px; /* Add padding */
+    }
+
+    p {
+        font-size: 14px; /* Adjust font size for paragraphs */
+    }
+
+    footer {
+        font-size: 14px; /* Adjust footer font size */
+        padding: 15px; /* Increase padding for footer */
+    }
+}
