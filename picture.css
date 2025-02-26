@@ -1,0 +1,102 @@
+
+img,a{
+    height:100px;
+    width:100px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    color: rgb(200, 5, 5);
+    text-shadow: 2px 2px 5px rgba(88, 5, 5, 0.7); 
+    animation: myHeader;
+    animation-duration:4s;
+    animation-delay:0.75s;
+    animation-timing-function: ease;
+   }
+   
+
+   @keyframes myHeader{
+    from{margin-left: 100%;}
+    to{margin-left: 0%}
+}
+button{
+    color: rgb(200, 5, 5);
+    background-color:rgb(217, 203, 185);
+    border-radius: 20px;
+    height:30px;
+    width:70px;
+}
+body{
+    background-color: antiquewhite;
+}
+footer{
+    background-color: rgb(217, 203, 185);
+ 
+    position: sticky;
+    left:0;
+    bottom: 0;
+    width:100%;
+}
+p{
+    margin: 0 auto;
+    background-color: rgb(217, 203, 185);
+    width: fit-content;
+    align-items: center;
+}
+
+#paragraph_div{
+    margin: 0 auto;
+    background-color: rgb(217, 203, 185);
+    width: fit-content;
+    align-items: center;
+}
+button:hover{
+    transform: translateY(-10px);
+    color:white;
+}
+#foot{
+    position: fixed;
+    bottom:0;
+   }
+
+   table{
+    background-color: rgb(200, 5, 5);
+    margin-bottom: 10px;
+   }
+   td{
+    background-color: rgb(200, 5, 5);
+    color:white;
+    text-align: center;
+   }
+   th{
+    background-color: rgba(88, 5, 5, 0.7);
+    color:white;
+   }
+   @media (max-width: 600px) {
+    h1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+    iframe{
+        width: 300px;
+        height:300px;
+    }
+
+    .btn {
+        width: 100%; /* Make buttons full width */
+        padding: 10px; /* Increase padding for touch targets */
+    }
+
+    #paragraph_div {
+        width: 90%; /* Make paragraph div wider on mobile */
+        padding: 10px; /* Add padding */
+    }
+
+    p {
+        font-size: 14px; /* Adjust font size for paragraphs */
+    }
+
+    footer {
+        font-size: 14px; /* Adjust footer font size */
+        padding: 15px; /* Increase padding for footer */
+    }
+}
