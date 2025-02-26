@@ -13,7 +13,11 @@ h1 {
     animation-delay:0.75s;
     animation-timing-function: ease;
    }
-   
+      #logo{
+    height:150px;
+    width:150px;
+    margin-bottom: 5px;
+   }
 
    @keyframes myHeader{
     from{margin-left: 100%;}
