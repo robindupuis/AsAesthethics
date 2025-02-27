@@ -46,10 +46,10 @@ select {
 }
 
 a{
-  color:rgb(239, 5, 239);
+  color:rgb(239, 5, 239) !important;
 }
 a:hover{
-  color:rgb(191, 2, 191);
+  color:rgb(191, 2, 191) !important;
 }
 article{
 width:500px;
