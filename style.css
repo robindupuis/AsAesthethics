@@ -8,12 +8,13 @@ button{
   border-color:rgb(152, 87, 152);
   border-radius: 5px;
   background-color: rgb(255, 162, 255);
+  color:black !important;
 }
 
 button:hover{
   transform: translateY(-5px);
   background-color:rgb(191, 2, 191);
-  
+  color:black !important;
 }
 
 iframe{
