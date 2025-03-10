@@ -74,7 +74,7 @@ p {
     align-items: center;
     border-radius: 5px;
     padding: 3px;
-    height:50px;
+    height:50px !important;
 }
 
 button:hover {
