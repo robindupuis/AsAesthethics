@@ -3,6 +3,7 @@ img,a{
     height:100px;
     width:100px;
     margin-bottom: 5px;
+    margin:auto !important;
 }
 
 h1 {
@@ -12,12 +13,14 @@ h1 {
     animation-duration:4s;
     animation-delay:0.75s;
     animation-timing-function: ease;
+    margin:auto !important;
    }
    
    #logo{
     height:150px;
     width:150px;
     margin-bottom: 5px;
+    margin:auto !important;
    }
 
    @keyframes myHeader{
@@ -30,13 +33,14 @@ button{
     border-radius: 20px;
     height:30px;
     width:70px;
+    margin:auto !important;
 }
 body{
     background-color: antiquewhite;
 }
 footer{
     background-color: rgb(217, 203, 185);
- 
+   text-align: center !important;
     position: sticky;
     left:0;
     bottom: 0;
@@ -102,10 +106,12 @@ button:hover{
 
     p {
         font-size: 14px; /* Adjust font size for paragraphs */
+        
     }
 
     footer {
         font-size: 14px; /* Adjust footer font size */
         padding: 15px; /* Increase padding for footer */
+        text-align: center;
     }
 }
