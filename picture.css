@@ -5,6 +5,9 @@ img,a{
     margin-bottom: 5px;
     margin:auto !important;
 }
+body{
+    align-items: center;
+}
 
 h1 {
     color: rgb(200, 5, 5);
@@ -27,13 +30,15 @@ h1 {
     from{margin-left: 100%;}
     to{margin-left: 0%}
 }
-button{
+
+button {
     color: rgb(200, 5, 5);
-    background-color:rgb(217, 203, 185);
+    background-color: rgb(217, 203, 185);
     border-radius: 20px;
-    height:30px;
-    width:70px;
-    margin:auto !important;
+    height: 30px;
+    width: 70px;
+    border: none; /* Optional: remove border */
+    cursor: pointer; /* Optional: change cursor on hover */
 }
 body{
     background-color: antiquewhite;
