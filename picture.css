@@ -74,6 +74,7 @@ p {
     align-items: center;
     border-radius: 5px;
     padding: 3px;
+    height:fit-content;
 }
 
 button:hover {
@@ -120,6 +121,7 @@ th {
     #paragraph_div {
         width: 90%; /* Make paragraph div wider on mobile */
         padding: 10px; /* Add padding */
+        height: fit-content;
     }
 
     p {
