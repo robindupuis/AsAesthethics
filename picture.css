@@ -74,7 +74,7 @@ p {
     align-items: center;
     border-radius: 5px;
     padding: 3px;
-    height:fit-content;
+    height:50px;
 }
 
 button:hover {
@@ -126,7 +126,7 @@ th {
 
     p {
         font-size: 0.875rem; /* Use rem for responsive font size */
-        height:fit-content;
+        height:50px;
     }
 
     footer {
