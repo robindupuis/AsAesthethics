@@ -1,116 +1,99 @@
-* {
-    box-sizing: border-box; /* Ensure consistent box model */
-}
 
-img, a {
-    height: 100px;
-    width: 100px;
+img,a{
+    height:100px;
+    width:100px;
     margin-bottom: 5px;
-    display: block; /* Ensure block display for centering */
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto !important;
 }
 
 h1 {
     color: rgb(200, 5, 5);
-    text-shadow: 2px 2px 5px rgba(88, 5, 5, 0.7);
-    animation: myHeader 4s ease 0.75s forwards; /* Combined shorthand */
-    text-align: center;
-}
-
-#logo {
-    height: 150px;
-    width: 150px;
+    text-shadow: 2px 2px 5px rgba(88, 5, 5, 0.7); 
+    animation: myHeader;
+    animation-duration:4s;
+    animation-delay:0.75s;
+    animation-timing-function: ease;
+   text-align: center;
+   }
+   
+   #logo{
+    height:150px;
+    width:150px;
     margin-bottom: 5px;
-    display: block; /* Ensure block display for centering */
-    margin-left: auto;
-    margin-right: auto;
-}
+    margin:auto !important;
+   }
 
-@keyframes myHeader {
-    from { margin-left: 100%; }
-    to { margin-left: 0%; }
+   @keyframes myHeader{
+    from{margin-left: 100%;}
+    to{margin-left: 0%}
 }
-
-button {
+button{
     color: rgb(200, 5, 5);
-    background-color: rgb(217, 203, 185);
+    background-color:rgb(217, 203, 185);
     border-radius: 20px;
-    height: 30px;
-    width: 70px;
-    display: block; /* Ensure block display for centering */
-    margin-left: auto;
-    margin-right: auto;
+    height:30px;
+    width:70px;
+    margin:auto !important;
 }
-
-body {
+body{
     background-color: antiquewhite;
-    font-family: Arial, sans-serif; /* Set a default font */
 }
-
-footer {
+footer{
     background-color: rgb(217, 203, 185);
-    text-align: center;
+   text-align: center !important;
     position: sticky;
-    left: 0;
+    left:0;
     bottom: 0;
-    width: 100%;
+    width:100%;
 }
-
-p {
+p{
     margin: 0 auto;
     background-color: rgb(217, 203, 185);
     width: fit-content;
     align-items: center;
-    border-radius: 5px;
-    padding: 3px;
+    border-radius: 5px !important;
+    padding:3px !important;
+}
+
+#paragraph_div{
+    margin: 0 auto;
+    background-color: rgb(217, 203, 185);
+    width: fit-content;
+    align-items: center;
+    border-radius:5px !important;
+    padding:3px !important;
     height:fit-content;
 }
-
-#paragraph_div {
-    margin: 0 auto;
-    background-color: rgb(217, 203, 185);
-    width: fit-content;
-    align-items: center;
-    border-radius: 5px;
-    padding: 3px;
-    height:50px !important;
-}
-
-button:hover {
+button:hover{
     transform: translateY(-10px);
-    color: white;
+    color:white;
 }
-
-#foot {
+#foot{
     position: fixed;
-    bottom: 0;
-}
+    bottom:0;
+   }
 
    table{
     background-color: rgb(200, 5, 5);
     margin-bottom: 10px;
     width: fit-content;
    }
-
-td {
+   td{
     background-color: rgb(200, 5, 5);
-    color: white;
+    color:white;
     text-align: center;
-}
-
-th {
+   }
+   th{
     background-color: rgba(88, 5, 5, 0.7);
-    color: white;
-}
-
-@media (max-width: 600px) {
+    color:white;
+   }
+   @media (max-width: 600px) {
     h1 {
-        font-size: 1.5rem; /* Use rem for responsive font size */
+        font-size: 24px; /* Adjust font size for smaller screens */
     }
-    iframe {
+    iframe{
         width: 300px;
-        height: 300px;
+        height:300px;
     }
 
     .btn {
@@ -121,16 +104,17 @@ th {
     #paragraph_div {
         width: 90%; /* Make paragraph div wider on mobile */
         padding: 10px; /* Add padding */
-        height: fit-content;
+        height:fit-content;
     }
 
     p {
-        font-size: 0.875rem; /* Use rem for responsive font size */
-        height:50px;
+        font-size: 14px; /* Adjust font size for paragraphs */
+        height:fit-content;
+        
     }
 
     footer {
-        font-size: 0.875rem; /* Use rem for responsive font size */
+        font-size: 14px; /* Adjust footer font size */
         padding: 15px; /* Increase padding for footer */
         text-align: center;
     }
