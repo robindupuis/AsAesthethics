@@ -85,11 +85,11 @@ button:hover {
     bottom: 0;
 }
 
-table {
+   table{
     background-color: rgb(200, 5, 5);
     margin-bottom: 10px;
-    width: 100%; /* Ensure table takes full width */
-}
+    width: fit-content;
+   }
 
 td {
     background-color: rgb(200, 5, 5);
