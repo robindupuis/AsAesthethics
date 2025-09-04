@@ -5,13 +5,10 @@ img,a{
     margin-bottom: 5px;
     margin:auto !important;
 }
-body{
-    align-items: center;
-}
 
 h1 {
-    color: rgb(200, 5, 5);
-    text-shadow: 2px 2px 5px rgba(88, 5, 5, 0.7); 
+color:  rgb(103, 40, 142);
+    text-shadow: 2px 2px 5px rgb(249, 236, 255);
     animation: myHeader;
     animation-duration:4s;
     animation-delay:0.75s;
@@ -30,21 +27,22 @@ h1 {
     from{margin-left: 100%;}
     to{margin-left: 0%}
 }
-
-button {
-    color: rgb(200, 5, 5);
-    background-color: rgb(217, 203, 185);
+button{
+    color:  rgb(103, 40, 142);
+    background-color:rgb(249, 236, 255);
     border-radius: 20px;
-    height: 30px;
-    width: 70px;
-    border: none; /* Optional: remove border */
-    cursor: pointer; /* Optional: change cursor on hover */
+    height:30px;
+    width:90px;
+    margin:auto !important;
+}
+button:hover{
+    background-color: rgb(103, 40, 142);
 }
 body{
-    background-color: antiquewhite;
+    background-color: rgb(249, 236, 255);
 }
 footer{
-    background-color: rgb(217, 203, 185);
+    background-color: rgb(171, 131, 194);
    text-align: center !important;
     position: sticky;
     left:0;
@@ -53,7 +51,7 @@ footer{
 }
 p{
     margin: 0 auto;
-    background-color: rgb(217, 203, 185);
+    background-color: rgb(249, 236, 255);
     width: fit-content;
     align-items: center;
     border-radius: 5px !important;
@@ -62,7 +60,7 @@ p{
 
 #paragraph_div{
     margin: 0 auto;
-    background-color: rgb(217, 203, 185);
+    background-color: rgb(249, 236, 255);
     width: fit-content;
     align-items: center;
     border-radius:5px !important;
@@ -79,12 +77,12 @@ button:hover{
    }
 
    table{
-    background-color: rgb(200, 5, 5);
+    background-color:rgb(249, 236, 255);
     margin-bottom: 10px;
     width: fit-content;
    }
    td{
-    background-color: rgb(200, 5, 5);
+    background-color: rgb(249, 236, 255);
     color:white;
     text-align: center;
    }
