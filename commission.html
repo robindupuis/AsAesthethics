@@ -1,14 +1,74 @@
 <html>
-    <title>ALW Creations</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover the convenience of Salon 29's online services. Book appointments from the comfort of your own home. Experience the best of beauty and wellness at your fingertips.">
-    <meta name="author" content="robin dupuis">
-    <link rel="website icon" type="png" href="alwCreations.png">
-    <meta http-equiv="refresh" content="3000">
-
-    <body align="center">
+    <head>
+        <title>ALW Creations</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Discover the convenience of Salon 29's online services. Book appointments from the comfort of your own home. Experience the best of beauty and wellness at your fingertips.">
+        <meta name="author" content="robin dupuis">
+        <link rel="website icon" type="png" href="alwCreations.png">
+        <meta http-equiv="refresh" content="3000">
         <link rel="stylesheet" href="picture.css">
+        <style>
+            /* Basic styling for better appearance */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+               background-color: #6a11b3;
+            }
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                background: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
+            textarea {
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                min-height: 150px;
+                box-sizing: border-box;
+            }
+            input[type="submit"] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+            input[type="submit"]:hover {
+                background-color: #45a049;
+            }
+            button {
+                padding: 10px 20px;
+                background-color: #6a11b3;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            .contact-info a {
+                color: #6a11b3;
+                text-decoration: none;
+            }
+            .contact-info a:hover {
+                text-decoration: underline;
+            }
+            #foot {
+                margin-top: 30px;
+                text-align: center;
+                color: #666;
+                font-size: 14px;
+            }
+        </style>
+    </head>
+    <body align="center">
         <div class="container">
             <header>
                 <h1>Commission Services</h1>
@@ -25,28 +85,25 @@
             <br>
             
             <div class="contact-info">
-                <p>For immediate assistance, call me at: <strong><a href="callto:(337) 412-0269">Call (337) 412-0269</a></strong></p>
+                <p>For immediate assistance, call me at: <strong><a href="tel:3374120269">(337) 412-0269</a></strong></p>
                 <br>
-                <p>Or email: <strong> <a href="mailto:Alyssawilliams@gmail.com" title="send me an email" id="emailBtn">Send me an email</a></strong></p>
+                <p>Or email: <strong> <a href="mailto:Alyssawilliams2319@gmail.com" title="send me an email" id="emailBtn">Send me an email</a></strong></p>
             </div>
             <br>
             <br>
             
-            <form id="commissionForm" action="mailto:Alyssawilliams2319@gmail.com" method="post">
-                <label for="commission_Details">Please describe your commission request in detail:</label>
-                <textarea id="commission_Details" name="commission_Details" placeholder="Please include details about the comission you're requesting, color, idea, references..." required></textarea>
-                
-               
+            <form id="commissionForm" action="mailto:Alyssawilliams2319@gmail.com" method="post" enctype="text/plain">
+                <label for="commission_Details">Please describe your commission request in detail:</label><br>
+                <textarea id="commission_Details" name="commission_Details" placeholder="Please include details about the commission you're requesting, color, idea, references..." required></textarea>
+                <br><br>
+                <input type="submit" value="Submit Request" title="Click to submit your commission request">
             </form>
-            <button type="submit" class="submit-btn">Submit</button>
+            
             <div id="message" class="success"></div>
         </div>
         
         <footer id="foot">
             &copy; 2025 ALWC. All rights reserved. Do not copy nor distribute without authorization.
         </footer>
-    
-      
     </body>
-<footer id="foot">&copy;Copyrights belong to website owner, do not copy nor distribute without authorization</footer>
 </html>
